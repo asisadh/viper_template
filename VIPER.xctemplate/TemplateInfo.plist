@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>VIPER pattern </string>
+	<key>Summary</key>
+	<string>This Templetes generate a templetes for viper pattern.</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>Template Author</key>
+	<string>Aashish Adhikari @ 2019</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Name of module that you need create</string>
+			<key>Default</key>
+			<string></string>
+			<key>Identifier</key>
+			<string>MODULENAME</string>
+			<key>Name</key>
+			<string>Module name</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_MODULENAME___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+</dict>
+</plist>
