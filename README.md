@@ -2,8 +2,6 @@
 
 ## How to use 🛠
 
-Use the install script.
-
 Download the project and paste the content to `~/Library/Developer/Xcode/Templates`. If Templates folder is missing, just create a Templates folder and put content inside of that folder.
 
 ## 🤖 Authors
